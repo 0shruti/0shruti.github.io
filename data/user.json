@@ -1,0 +1,27 @@
+{
+  "users": [
+    {
+      "DisplayName": "Bilbo Baggins",
+      "EmailAddress": "bilbo@dcmial.ca",
+      "UserName": "bbaggins",
+      "Password": "123456"
+
+    },
+
+    {
+      "DisplayName": "Bilbo Baggins",
+      "EmailAddress": "bilbo@dcmial.ca",
+      "UserName": "bbaggins",
+      "Password": "123456"
+
+    },
+
+    {
+      "DisplayName": "Bilbo Baggins",
+      "EmailAddress": "bilbo@dcmial.ca",
+      "UserName": "bbaggins",
+      "Password": "123456"
+
+    }
+  ]
+}

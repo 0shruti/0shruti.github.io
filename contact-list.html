@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact List</title>
+
+
+    <!--CSS Section   -->
+    <link rel="stylesheet" href="./content/app.css">
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../node_modules/@fortawesome/fontawesome-free/css/all.css">
+
+</head>
+<body>
+
+<header>
+
+</header>
+
+<main class="container">
+    <h1>Contact list</h1>
+    <div class="row">
+        <div class="col">
+
+            <button id="addButton" class="btn btn-primary btn-sm mb-1">
+                <i class="fas fa-plus-circle fa-sm"> Add Contact</i>
+            </button>
+            <br>
+
+            <table class="table table-striped table-boarded table-hover">
+                <thead class="tabledark">
+                <tr>
+                    <th scope="col" class="text-center"></th>
+                    <th scope="col">Full Name</th>
+                    <th scope="col">Contact Number</th>
+                    <th scope="col">Email address</th>
+                    <th scope="col"></th>
+                    <th scope="col"></th>
+                </tr>
+                </thead>
+                <tbody id="contactList">
+
+
+                </tbody>
+            </table>
+        </div>
+    </div>
+</main>
+
+
+<!--Scripting section -->
+<script src="./scripts/app.js"></script>
+<script src="./contact.js"></script>
+
+<script src="./node_modules/jquery/dist/jquery.min.js"></script>
+<script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+
+</body>
+</html>
